@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Checkpoints & large model files
+*.pth
+*.pt
+*.ckpt
+work_dirs/
+
+# Experiment outputs
+av_results/
+outputs/
+logs/
+
+# Precomputed cache / feature files (dataset-specific, not committed)
+*.pkl
+RWAVS/vggt_outputs_v3/
+RWAVS/release/
+ReplayNVAS/replaynavs_outputs_*/
+
+# Evaluation results
+*.json.bak
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tensorboard event files
+events.out.tfevents.*

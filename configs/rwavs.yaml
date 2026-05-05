@@ -1,0 +1,43 @@
+output_dir: 'rwavs_experiment'
+device: 'cuda'
+dist_backend: 'nccl'
+log_dir: 'logs/'
+result_dir: 'results/'
+seed: 42
+workers: 4
+dataset:
+  name: 'rwavs'
+  N_points: 256
+  video: '_1'
+  data_root: 'RWAVS/release'
+  img_num_per_gpu: 6
+  sr: 22050
+  train:
+    drop_last: True
+    shuffle: True
+  test:
+    batch_size: 1
+    drop_last: False
+    shuffle: False
+model:
+  resume_path: ''
+  file: 'ggad'
+  model_type: 'full'
+  render_type: 'simple'
+  joint_emb_dim: 256
+  pose_dim: 12  # RWAVS uses 12D target poses
+train:
+  file: 'AVTrainer'
+  criterion_file: 'Criterion'
+  resume: True
+  duration: 5
+  ddim_steps: 200
+  lr: 5e-4
+  gamma: 0.1 #exponentiallr scheduler
+  decay_epochs: 100 #exponentiallr scheduler
+  max_epoch: 100
+  print_freq: 10
+  save_every_checkpoint: True
+  save_interval: 1
+  valiter_interval: 50
+  val_when_train: True
