@@ -10,7 +10,7 @@ Jay Polra · Dhwanil Chauhan · Wenjun Huang · Kyle Toth · Xianhui Wang · Yan
 
 > **Abstract:** We present the first unified framework for novel-view acoustic synthesis that entirely bypasses explicit 3D visual rendering and costly photogrammetry by directly grounding spatial audio generation in feed-forward visual geometry. Our method synthesizes accurate and immersive binaural audio in 3D spaces without requiring viewpoint images, dense point maps, or any ground-truth poses for input video.
 
-![Teaser](media/teaser_final.png)
+![Teaser](media/teaser_GGNAVS.png)
 
 ---
 
