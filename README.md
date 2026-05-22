@@ -6,6 +6,13 @@ Jay Polra · Dhwanil Chauhan · Wenjun Huang · Kyle Toth · Xianhui Wang · Yan
 
 *Purdue University Northwest · UC Irvine · CIVS · San Diego State University*
 
+<p align="center">
+  <a href="https://your-project-page-link.com">
+    <img src="https://img.shields.io/badge/Project%20Page-Visit-blue?style=for-the-badge" alt="Project Page">
+  </a>
+</p>
+
+
 ---
 
 > **Abstract:** We present the first unified framework for novel-view acoustic synthesis that entirely bypasses explicit 3D visual rendering and costly photogrammetry by directly grounding spatial audio generation in feed-forward visual geometry. Our method synthesizes accurate and immersive binaural audio in 3D spaces without requiring viewpoint images, dense point maps, or any ground-truth poses for input video.
