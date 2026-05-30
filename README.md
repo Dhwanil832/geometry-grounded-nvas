@@ -7,7 +7,7 @@ Jay Polra · Dhwanil Chauhan · Wenjun Huang · Kyle Toth · Xianhui Wang · Yan
 *Purdue University Northwest · UC Irvine · CIVS · San Diego State University*
 
 <p align="center">
-  <a href="https://dhwanil832.github.io/nvas/">
+  <a href="https://dhwanil832.github.io/projects/nvas/">
     <img src="https://img.shields.io/badge/Project%20Page-Visit-blue?style=for-the-badge" alt="Project Page">
   </a>
 </p>
